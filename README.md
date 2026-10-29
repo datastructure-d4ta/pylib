@@ -8,3 +8,34 @@ stuff.nonbig(number1, number2) will do what bigmult() does but instead of the us
 stuff.get(website, apikey=None) will make an API get request with a predetermined User-Agent and if you assign an API key, it will put in that API key.
 That's my library.
 **I AM NOT RESPONSIBLE FOR ANY DAMAGE**
+
+
+**INSTALLATION FOR LINUX OR MAC**
+
+1. Go to the **Releases** page and download the Source Code (`.zip` or `.tar.gz`).
+2. Extract/unzip the folder on your computer.
+3. Open your Terminal (Mac/Linux) or Command Prompt/PowerShell (Windows).
+4. Navigate into the extracted folder (where `setup.py` is located):
+   ```bash
+   cd path/to/extracted/folder
+   ```
+5. Run the following command to install it globally on your OS:
+   ```bash
+   pip install .
+   ```
+
+
+
+**INSTALLATION FOR WINDOWS**
+
+1. Download the Source Code (`.zip`) from the **Releases** page.
+2. Right-click the `.zip` file and select **Extract All...** to unzip it.
+3. Open the unzipped folder so you can see your `setup.py` file.
+4. Click on the **File Explorer address bar** at the very top of the window, type `cmd`, and press **Enter**. (This opens a Command Prompt window directly inside your folder).
+5. Run the following command to install the package:
+   ```cmd
+   pip install .
+   ```
+
+
+   
